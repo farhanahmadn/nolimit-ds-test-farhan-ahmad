@@ -55,4 +55,4 @@ Pastikan Anda memiliki Python versi 3.8 atau lebih baru.
    python -m streamlit run app.py
    ```
 
-> *Developed by Farhan Ahmad Naufal for NoLimit Indonesia* <
+> *Developed by Farhan Ahmad Naufal for NoLimit Indonesia* 
