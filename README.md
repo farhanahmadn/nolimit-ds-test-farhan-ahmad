@@ -10,9 +10,9 @@ https://nolimit-farhanahmadn.streamlit.app/
 
 ## 📊 Dataset & License
 Dataset yang digunakan adalah kumpulan teks *email* berbahasa Indonesia yang telah dilabeli sebagai *spam* atau *ham*. 
-* **Sumber:** Data diperoleh dari sumber publik/Kaggle (kumpulan *email* bahasa Indonesia). 
+* **Sumber:** https://www.kaggle.com/datasets/gevabriel/indonesian-email-spam 
 * **Lisensi:** *Open-source / Public Domain*. 
-* **Sample Data:** Sebagian kecil *dataset* telah disertakan di dalam repositori ini (`data/indonesian_spam.csv`) untuk keperluan verifikasi lokal (*local verification*) tanpa perlu mengunduh data eksternal.
+* **Sample Data:** *dataset* telah disertakan di dalam repositori ini (`data/indonesian_spam.csv`) untuk keperluan verifikasi lokal (*local verification*) tanpa perlu mengunduh data eksternal.
 
 ## 🧠 Architecture & Model Selection Justification
 Sistem ini mematuhi persyaratan wajib dengan menggunakan ekosistem **Hugging Face** untuk ekstraksi *embedding* dan **Scikit-Learn** untuk klasifikasi. 
