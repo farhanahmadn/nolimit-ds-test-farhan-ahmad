@@ -40,3 +40,19 @@ Pastikan Anda memiliki Python versi 3.8 atau lebih baru.
    ```bash
    git clone [https://github.com/username/nolimit-ds-test-farhan-ahmad.git](https://github.com/username/nolimit-ds-test-farhan-ahmad.git)
    cd nolimit-ds-test-farhan-ahmad
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. **Jalankan Training Pipeline**
+   ```bash
+   python main.py
+   ```
+4. **Jalankan Web**
+   ```bash
+   python -m streamlit run app.py
+   ```
+
+> *Developed by Farhan Ahmad Naufal for NoLimit Indonesia* <
