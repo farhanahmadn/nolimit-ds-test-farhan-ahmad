@@ -1,4 +1,4 @@
-# NoLimit Indonesia Data Scientist Hiring Test 
+# Spam Email Classification System 
 
 **Repository Name:** `nolimit-ds-test-farhan-ahmad` 
 **Task Option:** A (Classification - Spam/Ham Detection for Indonesian Emails)
@@ -15,7 +15,7 @@ Dataset yang digunakan adalah kumpulan teks *email* berbahasa Indonesia yang tel
 * **Sample Data:** *dataset* telah disertakan di dalam repositori ini (`data/indonesian_spam.csv`) untuk keperluan verifikasi lokal (*local verification*) tanpa perlu mengunduh data eksternal.
 
 ## 🧠 Architecture & Model Selection Justification
-Sistem ini mematuhi persyaratan wajib dengan menggunakan ekosistem **Hugging Face** untuk ekstraksi *embedding* dan **Scikit-Learn** untuk klasifikasi. 
+Sistem ini menggunakan ekosistem **Hugging Face** untuk ekstraksi *embedding* dan **Scikit-Learn** untuk klasifikasi. 
 
 Daripada melakukan *fine-tuning* pada model Transformer berukuran masif (seperti IndoBERT standar), proyek ini menggunakan pendekatan *Feature Extraction Pipeline*:
 1. **Embedding Layer:** `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`
@@ -28,9 +28,9 @@ Daripada melakukan *fine-tuning* pada model Transformer berukuran masif (seperti
 
 ## 🗂️ Repository Structure
 * `main.py` : Skrip utama berisi *pipeline* ekstraksi *embedding*, pelatihan model Sklearn, evaluasi (akurasi/F1-Score), dan pencetakan hasil.
-* `app.py` : Skrip antarmuka web interaktif menggunakan Streamlit (Poin Bonus).
+* `app.py` : Skrip antarmuka web interaktif menggunakan Streamlit.
 * `requirements.txt` : Daftar *library* dependensi. 
-* `pipeline_flowchart.png` : Visualisasi *end-to-end pipeline* pemrosesan data (Syarat Wajib).
+* `pipeline_flowchart.png` : Visualisasi *end-to-end pipeline* pemrosesan data.
 * `spam_classifier_model.pkl` : Model klasifikasi Scikit-Learn yang telah dilatih.
 
 ## ⚙️ Setup & Installation Instructions 
