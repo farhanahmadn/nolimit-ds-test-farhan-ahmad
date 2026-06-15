@@ -5,6 +5,9 @@
 
 [cite_start]Proyek ini dibangun untuk memenuhi kualifikasi tes Data Scientist di NoLimit Indonesia[cite: 1]. Sistem ini merupakan sebuah *end-to-end pipeline Machine Learning* untuk mengklasifikasikan teks *email* berbahasa Indonesia ke dalam dua kelas: **SPAM** atau **HAM** (Aman).
 
+**Cobain Sekarang!** 
+https://nolimit-farhanahmadn.streamlit.app/
+
 ## 📊 Dataset & License
 [cite_start]Dataset yang digunakan adalah kumpulan teks *email* berbahasa Indonesia yang telah dilabeli sebagai *spam* atau *ham*[cite: 13]. 
 * [cite_start]**Sumber:** Data diperoleh dari sumber publik/Kaggle (kumpulan *email* bahasa Indonesia). [cite: 13]
