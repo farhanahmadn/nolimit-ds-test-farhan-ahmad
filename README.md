@@ -1,4 +1,4 @@
-# Spam Email Classification System 
+# Indonesia Email Spam Detection System 
 
 **Repository Name:** `nolimit-ds-test-farhan-ahmad` 
 **Task Option:** A (Classification - Spam/Ham Detection for Indonesian Emails)
